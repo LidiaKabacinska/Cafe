@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    background-color: #FFF2F2;
+    font-family: 'Dosis', sans-serif;
+    font-size: 100%;
+    line-height: 1,5;
+    color: #321204;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 3px;
+    margin-top: -5em;
+}
+.part {
+    margin: 10px;
+}
+
+.on {
+    margin-top: 20px;
+}
+image {
+    width: 100%;
+}
+#onas #menu #kontakt {
+    margin: 15px;
+}
+.container {
+    position: relative;
+}
+.napis {
+    width: 100%;
+    position: absolute;
+    font-size: 1em;
+    text-shadow: 2%;
+    text-align: center;
+    color: #FFF2F2;
+    top: 35%;
+    font-weight: bold;
+}
+header img {
+    height:200px;
+    width: 100%;
+    opacity: 0.3%;
+
+}
+.opis {
+    margin: 15px 5%;
+}
+
+nav {
+    width: 100%;
+    overflow: auto;
+}
+nav ul li { 
+width: 100%;
+float: left;
+}
+nav ul li a {
+    background-color: #321204;
+    color: #FFF2F2;
+    display: block;
+    padding: 10px;
+    margin: 2px;
+    border: 1,5px solid #210A00;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    background-color: #421E0F;
+}
+
+.zdj{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+    
+.foto{
+    padding: 2px;
+    display: block;
+    margin:5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+}
+.foto:hover {
+    opacity: 0.5;
+    
+}
+.kon {
+    line-height: 1,6;
+}
+.kon ul li a {
+    text-decoration: none;
+    color: #1A064F;
+}
+.kon .men .on {
+    padding: 15px;
+    margin: 5px;
+}
+#napoje {
+    opacity:  0;
+    font-size: 1,5em;
+    padding: 3px;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+#naslodko {
+    opacity:  0;
+    font-size: 1,5em;
+    padding: 3px;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+#naslono {
+    opacity:  0;
+    font-size: 1,5em;
+    padding: 3px;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+.calenapoje:hover #napoje {
+    display: block;
+    opacity: 1;
+}
+
+
+.calenaslodko:hover #naslodko {
+    display: block;
+    opacity: 1;
+}
+.calenaslono:hover #naslono {
+    display: block;
+    opacity: 1;
+}
+footer {
+    text-align: center;
+    background-color: #321204;
+    color: #FFF2F2;
+}
+@media screen and (min-width: 650px) {
+nav {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    }
+nav ul li {
+    width: 33.3333%;
+    float: left;
+    }
+header img {
+    height: 350px;
+    }
+.zdj {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+}
+.part {
+    width: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 5px;
+}
+.parts {
+    width: 33.3333%;
+    float: left;
+    padding: 2px;
+}
+.foto {
+    padding: 3px 4%;
+}
+
+}
