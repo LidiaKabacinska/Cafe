@@ -25,6 +25,7 @@ h2 {
 }
 .part {
     margin: 10px;
+    min-height: 300px;
 }
 
 .on {
